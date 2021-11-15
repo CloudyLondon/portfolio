@@ -96,7 +96,7 @@ section {
 
 .heading {
     flex: 1;
-    text-align: right;
+    text-align: left;
     padding-right: 20px;
 }
 
@@ -109,7 +109,7 @@ section {
     justify-content: space-between;
   }
 
-  .project-tile {
+.project-tile {
     flex: 0 1 49%;
     border: 1px solid var(--secondary-color);
     margin: 3px;
@@ -119,31 +119,31 @@ section {
     background-size: cover;
     background-position: top;
     border-radius: 10px 0 10px 0;
-  }
+}
 
-  .disabled {
+.disabled {
     pointer-events: none;
-  }
+ }
   
-  .project-tile:hover {
+.project-tile:hover {
     opacity: 0.75;
-  }
+}
   
-  .project-tile:first-child {
+.project-tile:first-child {
     flex: 100%;
-  }
+}
 
-  .title-tile {
+.title-tile {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
     display: inline-block;
     padding: 3px 7px;
     align-self: flex-start;
     border-radius: 8px 8px 8px 0;
-  }
+}
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .about {
       flex: none;
       text-align: justify;
